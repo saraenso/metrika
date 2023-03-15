@@ -7,7 +7,7 @@ body {
     letter-spacing: -0.03em;
 }
 
-h1, h2, h3, .info-text-wrapper, .studio-info, .btn-text, .item-link, .projects-link, .service-dsc, .room-dsc, .tel-link, .email-link, .end, .services-caption, .contacts-caption {
+h1, h2, h3, a, p {
     letter-spacing: -0.03em;
 }
 
