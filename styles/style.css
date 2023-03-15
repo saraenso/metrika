@@ -1,0 +1,360 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: -0.03em;
+}
+
+h1, h2, h3, .info-text-wrapper, .studio-info, .btn-text, .item-link, .projects-link, .service-dsc, .room-dsc, .tel-link, .email-link, .end, .services-caption, .contacts-caption {
+    letter-spacing: -0.03em;
+}
+
+header {
+    margin: 0 auto;
+    width: 1400px;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 32.82px;
+}
+
+.nav__container {
+    margin: 0 auto;
+    height: 30px;
+    width: 1155px;
+    display: inline-block;
+}
+
+.logo__link {
+    width: 127px;
+    height: 21.5px;
+    text-decoration: none;
+    margin-right: 556px;
+}
+
+.logo {
+    width: 127px;
+    height: 21.5px;
+}
+
+.nav {
+    display: inline;
+}
+
+.nav__link {
+    margin-right: 58px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #121212;
+    text-decoration: none;
+    text-align: right;
+}
+
+.nav__link:hover {
+    border-bottom: 1px solid #121212;
+    opacity: 0.5;
+}
+
+.nav__link:nth-last-child(1) {
+    margin-right: 0px;
+}
+
+.basic__section {
+    margin: 0 auto;
+    width: 1400px;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 67px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    width: 956px;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.info {
+    position: relative;
+    margin-bottom: 150px;
+    background-image: url('../resources/furniture.png');
+    width: 1150px;
+    height: 500px;
+}
+
+.info-text-wrapper {
+    position: absolute;
+    width: 430px;
+    left: 40px;
+    bottom: 40px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.about-caption {
+    margin-bottom: 29px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.project-caption {
+    margin-bottom: 29px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.studio-info {
+    margin-bottom: 30px;
+    width: 1048px;
+    font-size: 45px;
+    line-height: 61px;
+}
+
+.btn {
+    display: flex;
+    margin-bottom: 150px;
+    width: 255px;
+    height: 67px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #AD1818;
+}
+
+.btn-text {
+    display: inline-block;
+    padding: 20px 40px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.items {
+    margin-bottom: 88px;
+}
+
+.item-image {
+    margin-bottom: 15px;
+    width: 1150px;
+    height: 450px;
+}
+
+h3 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+}
+
+.item-link {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #AD1818;
+    text-decoration: none;
+}
+
+.projects-link {
+    display: block;
+    margin-bottom: 150px;
+    width: 1150px;
+    height: 153px;
+    line-height: 153px;
+    text-align: center;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+    font-family: 'Manrope', sans-serif;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    font-size: 30px;
+    color: #AD1818;
+}
+
+.projects-link:hover {
+    font-family: 'Manrope', sans-serif;
+    background-color: #AD1818;
+    color: #FFFFFF;
+}
+
+.section__black {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1400px;
+    padding-left: 128px;
+    padding-right: 125px;
+    padding-top: 151px;
+    padding-bottom: 90px;
+    background-color: #121212;
+}
+
+.container__black {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+.services {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+.services-caption {
+    padding-bottom: 34px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.service-img {
+    width: 1150px;
+    height: 270px;
+}
+
+.service-dsc {
+    padding-top: 13px;
+    padding-bottom: 60px;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+.section__room {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1400px;
+    background-image: url('../resources/roomforestview.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.room__container {
+    position: relative;
+    margin: 0 auto;
+    width: 1400px;
+    height: 717px;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+.room-dsc {
+    position: absolute;
+    bottom: 60px;
+    width: 443px;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+.section__white {
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.contacts__container {
+    margin-top: 186px;
+    margin-left: 124px;
+}
+
+.contacts-caption {
+    position: relative;
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.contacts-caption::before {
+    content: '';
+    position: absolute;
+    display: block;
+    background-image: url('../resources/icon.png');
+    background-size: contain;
+    width: 13px;
+    height: 22px;
+    bottom: 37px;
+}
+
+.tel {
+    margin-bottom: 28px;
+}
+
+.tel-link {
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    text-decoration: none;
+}
+
+.email {
+    margin-bottom: 160px;
+}
+
+.email-link {
+    font-size: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    border-bottom: 2px solid #121212;
+    opacity: 0.5;
+    color: #121212;
+}
+
+footer {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1400px;
+    padding-left: 127px;
+    padding-right: 125px;
+    padding-top: 63px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #121212;
+}
+
+.footer__nav {
+    display: inline;
+    margin: 0 auto;
+    width: 1400px;
+    text-align: center;
+}
+
+.footer__link {
+    font-size: 18px;
+    line-height: 25px;
+    color: #121212;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer__link:hover {
+    opacity: 0.5;
+}
+
+.first-link {
+    margin-right: 50px;
+}
+
+.second-link {
+    margin-right: 51px;
+}
+
+.third-link {
+    margin-right: 47px;
+}
+
+.fourth-link{
+    margin-left: 10px;
+}
+
+.end {
+    margin-top: 87px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
